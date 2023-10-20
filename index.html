@@ -1,0 +1,303 @@
+<!-- !: tạo nhanh cấu trúc thẻ html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+
+    <!-- Font Hind -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- BS4 CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- style CSS / Main CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body>
+    <!-- <p class="container bg-dark text-white">container</p>
+        <p class="container-fluid bg-dark text-white">container-fluid</p> -->
+    <header>
+
+        <nav class="  navbar navbar-expand-lg  container ">
+            <a class="navbar-brand" href="#">
+                <i class="fa-solid fa-dice-d20"></i>
+                <span>CyberPortfolio</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPort"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarPort">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+                <!-- xoá form -->
+
+            </div>
+        </nav>
+    </header>
+    <!-- section.carousel -->
+    <section class="carouselPort">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-item-overlay"></div>
+                    <!-- <img src="./img/mountains-1.jpg" alt="Los Angeles"> -->
+                    <div class="carousel-caption">
+                        <div class="img_thumb">
+                            <img src="./img/01-3.jpg" alt="" class="img-fluid">
+                            <h3>Our goals. Our mission.</h3>
+                            <p>How we help other companies to grow.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-item-overlay"></div>
+                    <!-- <img src="./img/mountains-1.jpg" alt="Los Angeles"> -->
+                    <div class="carousel-caption">
+                        <div class="img_thumb">
+                            <img src="./img/02-3.jpg" alt="" class="img-fluid">
+                            <h3>Our goals. Our mission.</h3>
+                            <p>How we help other companies to grow.</p>
+                        </div>
+                    </div>
+                    <!-- <img src="./img/mountains.jpg" alt="Chicago"> -->
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-item-overlay"></div>
+                    <!-- <img src="./img/mountains-1.jpg" alt="Los Angeles"> -->
+                    <div class="carousel-caption">
+                        <div class="img_thumb">
+                            <img src="./img/03-3.jpg" alt="" class="img-fluid">
+                            <h3>Our goals. Our mission.</h3>
+                            <p>How we help other companies to grow.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+    </section>
+    <section class="projects container">
+        <div class="title text-center py-5">
+            <h1>I Love What I Do</h1>
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis
+                dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.Vestibulum ante ipsum primis
+                in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc</p>
+
+        </div>
+        <div class="project_content">
+            <!-- Nav pills -->
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="pill" href="#allproject">All Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#illutration">Illustration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#photography">Photography</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#website">Website</a>
+                </li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane container active" id="allproject">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/g1.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/g2.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/g3.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/g4.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/g5.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/g6.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane container fade" id="illutration">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/g1.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/g1.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/g1.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane container fade" id="photography">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/g1.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/g1.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tab-pane container fade" id="website">
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./img/g1.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                <p class="card-text">Branding</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+        </div>
+    </section>
+    <section class="service"></section>
+    <section class="award"></section>
+    <footer></footer>
+
+
+
+    <!-- Thư viện hỗ trợ -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <!-- BS4 JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
